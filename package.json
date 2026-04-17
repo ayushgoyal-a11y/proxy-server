@@ -1,0 +1,22 @@
+{
+  "name": "proxy-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayushgoyal-a11y/proxy-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayushgoyal-a11y/proxy-server/issues"
+  },
+  "homepage": "https://github.com/ayushgoyal-a11y/proxy-server#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}

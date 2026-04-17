@@ -1,0 +1,17 @@
+node_modules/
+*.env
+package-lock.json
+dist/
+*.zip
+.npmrc
+/misc
+
+*.tsbuildinfo
+
+tmp/
+.DS_Store
+.vscode/settings.json
+.webpack_cache
+
+build/
+layer/
