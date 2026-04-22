@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/ayushgoyal-a11y/proxy-server#readme",
   "dependencies": {
-    "dotenv": "^17.4.2"
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "ngrok": "5.0.0-beta.2",
+    "proxy-chain": "^2.7.1"
   }
 }
