@@ -76,10 +76,10 @@ const server = new ProxyChain.Server({
   prepareRequestFunction: ({ username, password, hostname, port }) => {
     console.log({ username, password, hostname, port });
 
-    if (username !== "user" || password !== "pass") {
-      console.log("❌ Authentication failed");
-      return { requestAuthentication: true };
-    }
+    // if (username !== "user" || password !== "pass") {
+    //   console.log("❌ Authentication failed");
+    //   return { requestAuthentication: true };
+    // }
 
     console.log(`🌐 Proxying → ${hostname}:${port}`);
 
@@ -117,3 +117,5 @@ process.on("SIGINT", () => {
   server.close();
   process.exit(0);
 });
+
+// https://thumbs-pieces-four-brochures.trycloudflare.com
