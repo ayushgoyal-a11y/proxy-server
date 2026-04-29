@@ -2,7 +2,7 @@ node_modules/
 *.env
 package-lock.json
 dist/
-*.zip
+
 .npmrc
 /misc
 
@@ -14,4 +14,3 @@ tmp/
 .webpack_cache
 
 build/
-layer/
